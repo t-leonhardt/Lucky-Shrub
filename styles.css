@@ -1,6 +1,6 @@
 body{
-    background-color: bisque;
-    margin-top: 3rem;
+    background-color: #F5F5DC;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -20,6 +20,7 @@ header > img{
     margin-right: auto;
     height: 30vw;
     width: 15vw;
+    margin-bottom: 3rem;
 }
 
 footer > div > img{
@@ -30,7 +31,9 @@ footer > div > img{
 nav ul{
     list-style: none;
     text-align: center;
-    padding: 0vw
+    padding: 0vw;
+    background-color: #333333;
+    border-radius: 2rem;
 }
 
 nav li{
@@ -39,23 +42,67 @@ nav li{
 
 section{
     display: flex;
+    justify-content: space-between;
+    padding: 0; 
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 article{
     flex: 1;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
 footer{
     display: flex;
-    margin-top: 5vw;
     align-items: center;
 }
 
 footer > div{
     flex: 1;
     text-align: center;
+    padding: 2rem;
 }
 
 nav > ul > li{
     padding: 5vw;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightseagreen; 
+}
+
+#Sale{
+    background-image: url('gardening.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1rem; 
+    color: white;
+}
+
+.Column {
+    background-color: #333333;
+    color: white;
+    width: 32%;  
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin: 0;  
+}
+
+.Column:nth-child(2) {
+    margin: 0 2%;  
+}
+
+#Copyright{
+    text-align: right;
+}
+
+#Logo{
+    text-align: left;
 }
